@@ -23,6 +23,12 @@ public class ClientServiceImpl implements ClientServices {
 		return clientList;
 	}
 
+	@Override
+	public Client createClient(@Valid Client client) {
+		// TODO Auto-generated method stub
+		return clientRepository.save(client);
+	}
+
 	
 	
 	

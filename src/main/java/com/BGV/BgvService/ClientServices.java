@@ -11,5 +11,5 @@ import com.BGV.BgvModel.Client;
 @Service
 public interface ClientServices {
 	List<Client> getClientList();
-
+	Client createClient(@Valid Client client);
 	}
