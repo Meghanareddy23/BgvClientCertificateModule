@@ -29,6 +29,23 @@ public class ClientServiceImpl implements ClientServices {
 		return clientRepository.save(client);
 	}
 
+	@Override
+	public Client getDetailsById(int CliId) {
+		// TODO Auto-generated method stub
+		return clientRepository.findById(CliId).get();
+	}
+
+	@Override
+	public void update(Client client, int CliId) {
+		// TODO Auto-generated method stub
+		clientRepository.save(client);
+	}
+
+	@Override
+	public void delete(int CliId) {
+		// TODO Auto-generated method stub
+		clientRepository.deleteById(CliId);	}
+
 	
 	
 	
