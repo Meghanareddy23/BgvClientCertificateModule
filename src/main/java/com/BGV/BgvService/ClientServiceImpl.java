@@ -44,7 +44,8 @@ public class ClientServiceImpl implements ClientServices {
 	@Override
 	public void delete(int CliId) {
 		// TODO Auto-generated method stub
-		clientRepository.deleteById(CliId);	}
+		clientRepository.deleteById(CliId);
+		}
 
 	
 	

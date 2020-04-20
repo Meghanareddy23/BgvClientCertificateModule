@@ -48,8 +48,4 @@ public class ClientController {
 	clientServices.delete(CliId);
 	}
 
-
-
-
-
 }
